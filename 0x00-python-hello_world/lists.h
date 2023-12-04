@@ -10,7 +10,6 @@
  * Description: singly linked list node structure
  * for my Holberton project
  */
-
 typedef struct listint_s
 {
 	int n;
