@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-
 if __name__ == "__main__":
-    import hidden_4
-    for s in dir(hidden_4):
-        if s[:2] != "__":
-            print("{:s}".format(s))
+    from hidden_4 import *
+    allfo = dir()
+    for b in range(0, len(allfo)):
+        if allfo[b][:2] != "__":
+            print("{:s}".format(allfo[b]))
